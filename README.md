@@ -5,7 +5,7 @@
 # -*- coding: utf-8 -*-
 
 
-class StudentEngineer:
+class StudentDeveloper:
     def __init__(self):
         self.name = "Ayush Gundawar"
         self.role = "Student Engineer"
@@ -22,6 +22,6 @@ class StudentEngineer:
         print("Thanks for dropping by, hope you enjoy some of my work.")
 
 
-me = StudentEngineer()
+me = StudentDeveloper()
 me.say_hi()
 ```
