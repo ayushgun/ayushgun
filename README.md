@@ -11,7 +11,7 @@ class Ayush:
     def __init__(self):
         self.name = "Ayush Gundawar"
         self.role = "Student Engineer"
-        self.fluent_languages = ["Python", "Java", "HTML"]
+        self.fluent_languages = ["Python", "Java", "JavaScript"]
 
         self.technologies = [
             "MongoDB",
