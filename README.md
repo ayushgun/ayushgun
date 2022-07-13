@@ -13,7 +13,7 @@ class Developer:
         ]
 
     def say_hi(self):
-        print("Thanks for dropping by, hope you enjoy some of my work.")
+        print("Thanks for dropping by, I hope you enjoy some of my work.")
 
 
 ayush = Developer()
