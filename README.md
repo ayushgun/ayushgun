@@ -3,16 +3,17 @@
 
 👋 Check out LearnForsyth's open source website [here](https://github.com/learnforsyth).
 ```python
+@dataclass
 class Developer:
-    def __init__(self):
-        self.name = "Ayush Gundawar"
-        self.roles = ["Student", "Entrepreneur", "Developer"]
-        self.languages = ["Python", "C++", "Golang"]
-        self.technologies = [
+    def __init__(self) -> None:
+        name: str = "Ayush Gundawar"
+        roles: list = ["Student", "Entrepreneur", "Developer"]
+        languages: list = ["Python", "C++", "Golang"]
+        technologies: list = [
             "Nginx", "Apache Web", "Mongo DB", "Ethereum", "Django", ...
         ]
 
-    def say_hi(self):
+    def say_hi(self) -> None:
         print("Thanks for dropping by, I hope you enjoy some of my work.")
 
 
