@@ -1,17 +1,4 @@
-# Ayush Gundawar
-```python
-class Developer:
-    def __init__(self) -> None:
-        self.name: str = "Ayush Gundawar"
-        self.occupations: list[str] = ["Student", "Developer"]
-        self.languages: list[str] = ["Python", "Java", "Go"]
-        self.tech: list[str] = ["Nginx", "MongoDB", "Ethereum", "Django", ...]
+# 👋 Hi, I'm Ayush.
+I'm a computer science student at the Georgia Institute of of Technology concentrating in artificial intelligence and systems architecture. I'm particularly interested in software engineering, low-latency systems, and machine learning.
 
-    def say_hi(self) -> None:
-        print("Welcome to my GitHub profile. Thanks for stopping by.")
-
-
-me = Developer()
-me.say_hi()
-``` 
-[Website](https://ayushgundawar.me) • [LinkedIn](https://linkedin.com/in/ayushgun) • [LearnForsyth](https://learnforsyth.org)
+[Website](https://ayushgundawar.me) • [LinkedIn](https://linkedin.com/in/ayushgun)
